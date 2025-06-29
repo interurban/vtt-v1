@@ -116,3 +116,25 @@ This structure keeps all persistent state around a `Session` (a single game room
 
 Start small and iterate. The goal is a functional, easy‑to-maintain VTT that supports a single GM with up to four players.
 
+## Local Development
+
+1. **Install Dependencies**
+   ```bash
+   cd server && npm install
+   cd ../client && npm install
+   ```
+2. **Run the Server**
+   ```bash
+   cd server
+   npm start
+   ```
+3. **Run the Client**
+   ```bash
+   cd client
+   npm run dev
+   ```
+The client will proxy API requests to `localhost:3001` and open the app at `localhost:5173` by default.
+
+Upload a map via the `/api/session/demo/map` endpoint using a tool like curl or an HTML form.
+Tokens can be dragged around the canvas and will sync across connected clients.
+=======
