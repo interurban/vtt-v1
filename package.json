@@ -1,0 +1,16 @@
+{
+  "name": "vtt-v1",
+  "version": "1.0.0",
+  "description": "This repository outlines the design for a lightweight virtual tabletop (VTT) aimed at a single GM and up to four players. The goal is to keep the core feature set small while leaving room for future expansion.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
